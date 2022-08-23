@@ -144,7 +144,7 @@ kbd{background-color:#eee;border-radius:3px;border:1px solid #b4b4b4;box-shadow:
 </label>
 </p>
 <p><a class="button" id="gen" onclick="drawImage()">Pratinjau</a>
-<a class=button href=/pages/read_more/>CustomText</a></p>
+<a class="button" href="#" id="cancel" onclick="location.reload()">Hapus</a></p>
 
 </div><!-- Text -->
 </article><!-- Article -->
@@ -172,19 +172,22 @@ kbd{background-color:#eee;border-radius:3px;border:1px solid #b4b4b4;box-shadow:
 <span class="close-modal">X</span>
 <div class="custom-modal-body">
 <div class="custom-modal-inner">
+
 <!-- Content -->
 <h4>Well Done! </h4>
+
 <p>
 <img class="res" id="preview" src="/img/image.png"/>
 <img class="res" id="twibbon" style="display: none" src="/img/twibbon.png"/>
 <canvas id="can" style="width: 300px; height: 300px; display: none"></canvas>
 </p>
+
 <p>
-<button type="button" class="button" id="cancel" onclick="location.reload()">Hapus</button> 
 <div class=pagination>
 <a href="#" id="download" download="TWIBBON.PAGES.DEV.png" style="display: none">Unduh</a>
 </div>
 </p>
+
 </div>
 </div>
 </div>
